@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* outline: solid 1px #0aad53; */
+}
+body{
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: "Roboto","Noto Sans TC", sans-serif;
+    color: #000;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.container-full{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/* @media (max-width: 767px){
+    .container{
+        width: 720px;
+    }
+} */
+@media (max-width: 576px){
+    .container{
+        width: 372px;
+    }
+    .container-full{
+        width: 100%;
+        padding: 0 0;
+    }
+}

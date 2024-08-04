@@ -1,0 +1,154 @@
+@import "reset.css";
+@import "base.css";
+@import "header.css";
+
+/* 標籤 */
+.gui-column{
+    width: 33.3333%;
+}
+.gui-a{
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+    border: solid #DCDCDC 1px;
+    font-size: 32px;
+}
+.gui-a:hover{
+    border-bottom: solid #AA0601 8px;
+    transition: 0.3s;
+}
+@media (max-width: 768px){
+    .gui-a{
+        font-size: 24px;
+        padding: 16px 0;
+    }
+}
+
+@media (max-width: 576px){
+    .gui-a{
+        font-size: 16px;
+    }
+}
+.banner{
+    margin: 0 auto;
+}
+.title{
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+.title-item1{
+    font-size: 42px;
+    text-align: center;
+}
+.title-item2{
+    font-size: 32px;
+    text-align: center;
+}
+@media (max-width: 576px){
+    .title-item1{
+        font-size: 24px;
+    }
+    .title-item2{
+        font-size: 24px;
+    }
+    .title{
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+}
+.main{
+    padding-top: 16px;
+}
+.column{
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 80px;
+}
+.item-row{
+    margin-left: -12px;
+    margin-right: -12px;
+    flex-wrap: wrap;
+}
+.item-color{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #5F3E2D;
+    margin-right: 8px;
+}
+.item-sp{
+    color: #AA0601;
+    font-weight: 500;   
+}
+@media(max-width: 768px){
+    .main{
+        padding-top: 16px;
+        padding-bottom: 40px;
+    }
+    .column{
+        width: 50%;
+        padding-bottom: 40px;
+    }
+  }
+@media (max-width: 576px){
+    .main{
+        padding-top: 12px;
+        padding-bottom: 40px;
+    }
+    .column{
+        width: 100%;
+        padding-bottom: 24px;
+    }
+}
+.page-list{
+    margin-left: -12px;
+    margin-right: -12px;
+    align-items: center;
+    justify-content: center;
+}
+.bor-page{
+    border: solid #555555 1px;
+}
+.page{
+    padding-bottom: 80px;
+    font-size: 18px;
+}
+.page-Pre{
+    padding: 11px 13px 12px 14px;
+    font-size: 19px;
+}
+.page-next{
+    padding: 11px 14px 12px 13px;
+    font-size: 19px;
+}
+.page-num-l{
+    padding: 12px 15px 12px 16px;
+}
+.page-num-r{
+    padding: 12px 16px 12px 15px;
+}
+.page-num-ce{
+    padding: 12px 15px 12px 15px;
+}
+@media (max-width: 576px){
+    .page-Pre{
+        padding: 11px 13px 12px 14px;
+        font-size: 16px;
+    }
+    .page-next{
+        padding: 11px 14px 12px 13px;
+        font-size: 16px;
+    }
+    .page{
+        font-size: 16px;
+        padding-bottom: 64px;
+    }
+}
+/* layout */
+.dis-fl{
+    display: flex;
+}
+.jc-sb{
+    justify-content: space-between;
+}
