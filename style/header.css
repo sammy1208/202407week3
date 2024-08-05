@@ -32,6 +32,9 @@
     padding-left: 10px;
     margin-left: 54px;
 }
+.header-a:hover{
+    font-weight: 550;
+}
 .header-content{
     display: flex;
     justify-content: space-between;
@@ -85,6 +88,9 @@
     padding: 8px 0;
     margin-right: 48px;
 }
+.footer-menu-a:hover{
+    font-weight: 550;
+}
 .footer-connect{
     font-size: 36px;
 }
@@ -107,6 +113,9 @@
 .footer-item-list{
     font-size: 14px;
     display: flex;
+}
+.footer-item-list-a:hover{
+    font-weight: 550;
 }
 @media(max-width: 790px){
     .social-img{

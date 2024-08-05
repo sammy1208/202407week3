@@ -70,18 +70,24 @@
     margin-right: -12px;
     flex-wrap: wrap;
 }
-.item-color{
+.item-color1{
     width: 24px;
     height: 24px;
     border-radius: 4px;
     background-color: #5F3E2D;
     margin-right: 8px;
 }
+.item-color2{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #B75929;
+}
 .item-sp{
     color: #AA0601;
     font-weight: 500;   
 }
-@media(max-width: 768px){
+@media(max-width: 890px){
     .main{
         padding-top: 16px;
         padding-bottom: 40px;
@@ -130,6 +136,16 @@
 }
 .page-num-ce{
     padding: 12px 15px 12px 15px;
+}
+.page-Pre:hover{
+    background-color: #F2F2F2;
+}
+.page-next:hover{
+    background-color: #F2F2F2;
+}
+.page-hover:hover{
+    background-color: #000000;
+    color: #FFFFFF;
 }
 @media (max-width: 576px){
     .page-Pre{
