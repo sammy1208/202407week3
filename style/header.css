@@ -97,7 +97,10 @@
 .social-img{
     width: 48px;
     height: 48px;
+}
+.social-img-ml{
     margin-left: 32px;
+
 }
 .footer-icon{
     font-size: 48px;
@@ -116,6 +119,10 @@
 }
 .footer-item-list-a:hover{
     font-weight: 550;
+}
+.footer-social{
+    display: flex;
+    justify-content: flex-start;
 }
 @media(max-width: 790px){
     .social-img{
@@ -166,3 +173,4 @@
 .mr-48{
     margin-right: 48px;
 }
+
