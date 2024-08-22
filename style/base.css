@@ -2,7 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    outline: solid 1px #0aad53;
+    /* outline: solid 1px #0aad53; */
 }
 body{
     line-height: 1.5;
