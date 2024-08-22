@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style/all.css">
 </head>
 <body>
@@ -31,17 +32,17 @@
             </div>
         </div>
     </header>
-    <div class="gui">
+    <div class="gui" data-aos="fade-right">
         <div class="container-full">
             <ul class="dis-fl jc-sb">
-                <li class="gui-column"><a href="#" class="gui-a">OPTICAL</a></li>
-                <li class="gui-column"><a href="#" class="gui-a">SUNGLASSES</a></li>
-                <li class="gui-column"><a href="#" class="gui-a">FUNCTIONAL</a></li>
+                <li class="gui-column border-gui"><a href="#" class="gui-a border-tra">OPTICAL</a></li>
+                <li class="gui-column border-gui"><a href="#" class="gui-a border-tra">SUNGLASSES</a></li>
+                <li class="gui-column border-gui"><a href="#" class="gui-a border-tra">FUNCTIONAL</a></li>
             </ul>
         </div>
     </div>
     <div class="banner">
-        <ul class="dis-fl jc-ce">
+        <ul class="dis-fl jc-ce" data-aos="flip-down">
             <li>
                 <a href="#">
                     <picture>
@@ -61,15 +62,16 @@
         </ul>
     </div>
     <section class="title">
-        <div class="container">
+        <div class="container" data-aos="flip-down">
             <h2 class="title-item1">Celluloid Combi</h2>
             <p class="title-item2">賽璐珞鈦金屬混合鏡框</p>
         </div>
     </section>
     <main class="main">
         <div class="container">
-            <div class="dis-fl item-row">
-                <div class="column">
+            <ul class="dis-fl item-row" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-4.png" alt="product">
@@ -82,8 +84,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-5.png" alt="product">
@@ -96,8 +98,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-1.png" alt="product">
@@ -110,8 +112,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-2.png" alt="product">
@@ -124,8 +126,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-9.png" alt="product">
@@ -138,8 +140,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-8.png" alt="product">
@@ -152,8 +154,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-7.png" alt="product">
@@ -166,8 +168,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="column">
                     <div class="item">
                         <a href="#">
                             <img src="img/product-3.png" alt="product">
@@ -180,8 +182,8 @@
                             <div class="item-color2"></div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </main>
     <div class="page">
@@ -190,20 +192,21 @@
                 <li>
                     <a href="#" class="bor-page page-Pre">上一頁</a>
                 </li>
-                <li><a href="#" class="bor-page page-num-l page-hover">1</a></li>
-                <li><a href="#" class="bor-page page-num-ce page-hover">2</a></li>
-                <li><a href="#" class="bor-page page-num-ce page-hover">3</a></li>
-                <li><a href="#" class="bor-page page-num-ce page-hover">4</a></li>
-                <li><a href="#" class="bor-page page-num-r page-hover">5</a></li>
-                <li>
-                    <a href="#" class="bor-page page-next">下一頁</a>
+                <li class="bor-page"><a href="#" class="page-num-l page-hover">1</a></li>
+                <li class="bor-page"><a href="#" class="page-num-ce page-hover">2</a></li>
+                <li class="bor-page"><a href="#" class="page-num-ce page-hover">3</a></li>
+                <li class="bor-page"><a href="#" class="page-num-ce page-hover">4</a></li>
+                <li class="bor-page"><a href="#" class="page-num-r page-hover">5</a></li>
+                <li class="bor-page">
+                    <a href="#" class="page-next">下一頁</a>
                 </li>
             </ol>
         </div>
     </div>
     <footer class="footer">
         <div class="container-footer">
-            <div class="footer-contean">
+            <div class="footer-contean" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
                 <div>
                     <ul class="footer-menu">
                         <li><a href="#" class="footer-menu-a">首頁</a></li>
@@ -251,4 +254,6 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
 </body>

@@ -6,11 +6,16 @@
 .gui-column{
     width: 33.3333%;
 }
+.border-gui{
+    border: solid #DCDCDC 1px;
+}
+.border-tra{
+    border: solid 8px transparent;
+}
 .gui-a{
     width: 100%;
     padding: 24px 0;
     text-align: center;
-    border: solid #DCDCDC 1px;
     font-size: 32px;
 }
 .gui-a:hover{
@@ -110,7 +115,6 @@
 .page-list{
     margin-left: -12px;
     margin-right: -12px;
-    align-items: center;
     justify-content: center;
 }
 .bor-page{
