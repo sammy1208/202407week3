@@ -92,6 +92,7 @@
 .item-sp{
     color: #AA0601;
     font-weight: 500;   
+    word-break: break-all;
 }
 @media(max-width: 890px){
     .main{
@@ -172,4 +173,7 @@
 }
 .jc-sb{
     justify-content: space-between;
+}
+.word-break{
+    word-break: break-all;
 }
